@@ -1,0 +1,14 @@
+{
+  "name": "api-blueprint",
+  "version": "1.0.0",
+  "description": "API Blueprint",
+  "main": "index.js",
+  "scripts": {
+    "serve": "aglio --server -p 3001 -i",
+    "build": "sh bin/converter.sh",
+    "mock": "drakov --watch -p 3002 -f 'src/*.md'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
